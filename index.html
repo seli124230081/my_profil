@@ -892,9 +892,9 @@
 
             .hero-photo::before {
 
-                width: 240px;
+                width: 230px;
 
-                height: 240px;
+                height: 230px;
             }
 
             .gallery,
