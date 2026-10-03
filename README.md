@@ -1,5 +1,3 @@
-# my_profil
-Selamat datang di website saya
 <html>
 <html lang="id">
 
@@ -1364,9 +1362,9 @@ Selamat datang di website saya
 
                 <div class="slideshow">
 
-                    <img src="foto-smp-1.JPEG" alt="Masa SMP 1">
+                    <img src="foto-smp-1.jpeg" alt="Masa SMP 1">
 
-                    <img src="foto-smp-2.JPEG" alt="Masa SMP 2">
+                    <img src="foto-smp-2.jpeg" alt="Masa SMP 2">
                 </div>
 
 
@@ -1387,35 +1385,35 @@ Selamat datang di website saya
 
                 <div class="slideshow">
 
-                    <img src="foto-sma-1.JPEG" alt="Masa SMA 1">
+                    <img src="foto-sma-1.jpeg" alt="Masa SMA 1">
 
-                    <img src="foto-sma-2.JPEG" alt="Masa SMA 2">
+                    <img src="foto-sma-2.jpeg" alt="Masa SMA 2">
 
-                    <img src="foto-sma-3.JPEG" alt="Masa SMA 3">
+                    <img src="foto-sma-3.jpeg" alt="Masa SMA 3">
 
-                    <img src="foto-sma-4.JPEG" alt="Masa SMA 4">
+                    <img src="foto-sma-4.jpeg" alt="Masa SMA 4">
 
-                    <img src="foto-sma-5.JPEG" alt="Masa SMA 5">
+                    <img src="foto-sma-5.jpeg" alt="Masa SMA 5">
 
-                    <img src="foto-sma-6.JPEG" alt="Masa SMA 6">
+                    <img src="foto-sma-6.jpeg" alt="Masa SMA 6">
 
-                    <img src="foto-sma-7.JPEG" alt="Masa SMA 7">
+                    <img src="foto-sma-7.jpeg" alt="Masa SMA 7">
 
-                    <img src="foto-sma-8.JPEG" alt="Masa SMA 8">
+                    <img src="foto-sma-8.jpeg" alt="Masa SMA 8">
 
-                    <img src="foto-sma-9.JPEG" alt="Masa SMA 9">
+                    <img src="foto-sma-9.jpeg" alt="Masa SMA 9">
 
-                    <img src="foto-sma-10.JPEG" alt="Masa SMA 10">
+                    <img src="foto-sma-10.jpeg" alt="Masa SMA 10">
 
-                    <img src="foto-sma-11.JPEG" alt="Masa SMA 11">
+                    <img src="foto-sma-11.jpeg" alt="Masa SMA 11">
 
-                    <img src="foto-sma-12.JPEG" alt="Masa SMA 12">
+                    <img src="foto-sma-12.jpeg" alt="Masa SMA 12">
 
-                    <img src="foto-sma-13.JPEG" alt="Masa SMA 13">
+                    <img src="foto-sma-13.jpeg" alt="Masa SMA 13">
 
-                    <img src="foto-sma-14.JPEG" alt="Masa SMA 14">
+                    <img src="foto-sma-14.jpeg" alt="Masa SMA 14">
 
-                    <img src="foto-sma-15.JPEG" alt="Masa SMA 15">
+                    <img src="foto-sma-15.jpeg" alt="Masa SMA 15">
 
                 </div>
 
