@@ -1,2 +1,1950 @@
 # my_profil
 Selamat datang di website saya
+<html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Perjalanan Hidup - Seli Arroma Azizah</title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+
+            padding: 15px 7%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background: rgba(15, 23, 42, 0.94);
+
+            backdrop-filter: blur(12px);
+
+            z-index: 1000;
+
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .logo {
+            color: white;
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: #38bdf8;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+
+        #home {
+
+            min-height: 100vh;
+
+            display: flex;
+            align-items: center;
+
+            padding: 110px 8% 70px;
+
+            color: white;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(15, 23, 42, .96),
+                    rgba(30, 58, 138, .88)
+                ),
+                radial-gradient(
+                    circle at top right,
+                    #38bdf8,
+                    transparent 35%
+                );
+        }
+
+        .hero {
+
+            max-width: 1150px;
+
+            width: 100%;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns: 1.2fr .8fr;
+
+            gap: 60px;
+
+            align-items: center;
+        }
+
+        .hero-text .small-title {
+
+            color: #7dd3fc;
+
+            font-weight: 700;
+
+            letter-spacing: 3px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 10px;
+        }
+
+        .hero h1 {
+
+            font-size: clamp(42px, 6vw, 72px);
+
+            line-height: 1.05;
+
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h2 {
+
+            color: #cbd5e1;
+
+            font-size: 23px;
+
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+
+            max-width: 650px;
+
+            color: #e2e8f0;
+
+            font-size: 17px;
+        }
+
+        .buttons {
+
+            margin-top: 30px;
+
+            display: flex;
+
+            gap: 15px;
+
+            flex-wrap: wrap;
+        }
+
+        .btn {
+
+            display: inline-block;
+
+            padding: 13px 25px;
+
+            border-radius: 30px;
+
+            text-decoration: none;
+
+            font-weight: 700;
+
+            transition: .3s;
+        }
+
+        .btn-primary {
+
+            background: #38bdf8;
+
+            color: #0f172a;
+        }
+
+        .btn-secondary {
+
+            border: 1px solid #64748b;
+
+            color: white;
+        }
+
+        .btn:hover {
+
+            transform: translateY(-4px);
+        }
+
+        .hero-photo {
+
+            position: relative;
+
+            display: flex;
+
+            justify-content: center;
+        }
+
+        .hero-photo::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 310px;
+            height: 310px;
+
+            border-radius: 50%;
+
+            border: 2px dashed #38bdf8;
+
+            animation: spin 18s linear infinite;
+        }
+
+        .profile-image {
+
+            width: 310px;
+            height: 310px;
+
+            object-fit: cover;
+
+            object-position: center 75%;
+
+            border-radius: 100%;
+
+            border: 7px solid white;
+
+            box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+        @keyframes spin {
+
+            to {
+                transform: rotate(360deg);
+            }
+
+        }
+
+
+        section {
+
+            padding: 90px 8%;
+        }
+
+        .section-title {
+
+            text-align: center;
+
+            max-width: 700px;
+
+            margin: 0 auto 55px;
+        }
+
+        .section-title .label {
+
+            color: #0284c7;
+
+            font-size: 14px;
+
+            font-weight: 800;
+
+            letter-spacing: 3px;
+
+            text-transform: uppercase;
+        }
+
+        .section-title h2 {
+
+            font-size: 42px;
+
+            color: #0f172a;
+
+            margin: 5px 0 10px;
+        }
+
+        .section-title p {
+
+            color: #64748b;
+        }
+
+
+        #about {
+            background: white;
+        }
+
+        .about-container {
+
+            max-width: 1050px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns: 1.2fr .8fr;
+
+            gap: 30px;
+        }
+
+        .about-box {
+
+            background: #f8fafc;
+
+            padding: 35px;
+
+            border-radius: 22px;
+
+            border: 1px solid #e2e8f0;
+
+            box-shadow: 0 12px 35px rgba(15, 23, 42, .06);
+        }
+
+        .about-box h3 {
+
+            color: #0369a1;
+
+            margin-bottom: 15px;
+
+            font-size: 23px;
+        }
+
+        .biodata {
+
+            list-style: none;
+        }
+
+        .biodata li {
+
+            padding: 10px 0;
+
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+
+        #journey {
+
+            background: linear-gradient(
+                180deg,
+                #eef8ff,
+                #f8fafc
+            );
+        }
+
+        .journey-intro {
+
+            text-align: center;
+
+            max-width: 700px;
+
+            margin: -25px auto 60px;
+
+            color: #64748b;
+
+            font-style: italic;
+        }
+
+        .timeline {
+
+            max-width: 1050px;
+
+            margin: auto;
+
+            position: relative;
+        }
+
+        .timeline::before {
+
+            content: "";
+
+            position: absolute;
+
+            left: 50%;
+
+            top: 0;
+
+            bottom: 0;
+
+            width: 3px;
+
+            background: #bae6fd;
+
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+
+            width: 50%;
+
+            padding: 15px 45px;
+
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) {
+
+            left: 0;
+
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) {
+
+            left: 50%;
+        }
+
+        .timeline-dot {
+
+            position: absolute;
+
+            top: 32px;
+
+            width: 18px;
+
+            height: 18px;
+
+            background: #0284c7;
+
+            border: 4px solid white;
+
+            border-radius: 50%;
+
+            box-shadow: 0 0 0 4px #bae6fd;
+
+            z-index: 2;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-dot {
+
+            right: -9px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-dot {
+
+            left: -9px;
+        }
+
+        .timeline-card {
+
+            background: white;
+
+            padding: 20px;
+
+            border-radius: 18px;
+
+            box-shadow: 0 12px 30px rgba(15, 23, 42, .08);
+
+            transition: .3s;
+        }
+
+        .timeline-card:hover {
+
+            transform: translateY(-6px);
+
+            box-shadow: 0 18px 40px rgba(15, 23, 42, .14);
+        }
+
+        .timeline-year {
+
+            color: #0284c7;
+
+            font-weight: 800;
+
+            font-size: 14px;
+        }
+
+        .timeline-card h3 {
+
+            margin: 5px 0;
+
+            color: #0f172a;
+        }
+
+        .timeline-card p {
+
+            color: #64748b;
+
+            font-size: 14px;
+        }
+
+
+        #gallery {
+
+            background: #0f172a;
+
+            color: white;
+        }
+
+        #gallery .section-title h2 {
+
+            color: white;
+        }
+
+        #gallery .section-title p {
+
+            color: #cbd5e1;
+        }
+
+        .gallery {
+
+            max-width: 1100px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: 20px;
+        }
+
+        .photo-card {
+
+            background: white;
+
+            padding: 10px 10px 18px;
+
+            border-radius: 5px;
+
+            color: #0f172a;
+
+            box-shadow: 0 15px 35px rgba(0, 0, 0, .25);
+
+            transition: .4s;
+
+            overflow: hidden;
+        }
+
+        .photo-card:nth-child(even) {
+
+            transform: rotate(2deg);
+        }
+
+        .photo-card:nth-child(odd) {
+
+            transform: rotate(-2deg);
+        }
+
+        .photo-card:hover {
+
+            transform:
+                rotate(0deg)
+                translateY(-10px)
+                scale(1.03);
+
+            z-index: 5;
+        }
+
+
+        /* =====================================================
+           SLIDESHOW
+           
+           JUMLAH FOTO BOLEH BERBEDA-BEDA
+        ===================================================== */
+
+        .slideshow {
+
+            width: 100%;
+
+            height: 220px;
+
+            position: relative;
+
+            overflow: hidden;
+
+            background: #e2e8f0;
+        }
+
+        .slideshow img {
+
+            position: absolute;
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 0;
+
+            left: 0;
+
+            object-fit: cover;
+
+            opacity: 0;
+
+            transition: opacity 1s ease-in-out;
+        }
+
+        .slideshow img.active {
+
+            opacity: 1;
+        }
+
+
+        /* =====================================================
+           JUDUL DAN KETERANGAN FOTO
+        ===================================================== */
+
+        .photo-card h3 {
+
+            padding: 12px 8px 2px;
+
+            font-size: 17px;
+        }
+
+        .photo-card p {
+
+            padding: 0 8px;
+
+            color: #64748b;
+
+            font-size: 13px;
+        }
+
+
+        /* =====================================================
+           KEAHLIAN
+        ===================================================== */
+
+        #skills {
+
+            background: white;
+        }
+
+        .skills-container {
+
+            max-width: 1050px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 22px;
+        }
+
+        .skill-card {
+
+            background: #f8fafc;
+
+            padding: 30px;
+
+            text-align: center;
+
+            border-radius: 20px;
+
+            border: 1px solid #e2e8f0;
+
+            transition: .3s;
+        }
+
+        .skill-card:hover {
+
+            transform: translateY(-8px);
+
+            border-color: #7dd3fc;
+        }
+
+        .skill-card .icon {
+
+            font-size: 42px;
+
+            margin-bottom: 12px;
+        }
+
+        .skill-card h3 {
+
+            color: #0369a1;
+
+            margin-bottom: 8px;
+        }
+
+        .skill-card p {
+
+            color: #64748b;
+
+            font-size: 14px;
+        }
+
+
+        /* =====================================================
+           KONTAK
+        ===================================================== */
+
+        #contact {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #0f172a,
+                    #1e3a8a
+                );
+
+            color: white;
+        }
+
+        #contact .section-title h2 {
+
+            color: white;
+        }
+
+        #contact .section-title p {
+
+            color: #cbd5e1;
+        }
+
+        .contact-container {
+
+            max-width: 700px;
+
+            margin: auto;
+
+            display: grid;
+
+            gap: 15px;
+        }
+
+        .contact-item {
+
+            padding: 18px 22px;
+
+            background: rgba(255, 255, 255, .08);
+
+            border: 1px solid rgba(255, 255, 255, .12);
+
+            border-radius: 15px;
+
+            text-align: center;
+        }
+
+        .contact-item a {
+
+            color: #7dd3fc;
+
+            text-decoration: none;
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ===================================================== */
+
+        footer {
+
+            text-align: center;
+
+            padding: 22px;
+
+            background: #020617;
+
+            color: #94a3b8;
+        }
+
+
+        /* =====================================================
+           RESPONSIVE TABLET
+        ===================================================== */
+
+        @media (max-width: 850px) {
+
+            nav {
+
+                padding: 13px 5%;
+            }
+
+            nav ul {
+
+                gap: 10px;
+            }
+
+            nav a {
+
+                font-size: 12px;
+            }
+
+            .hero,
+            .about-container {
+
+                grid-template-columns: 1fr;
+
+                text-align: center;
+            }
+
+            .hero-text p {
+
+                margin: auto;
+            }
+
+            .buttons {
+
+                justify-content: center;
+            }
+
+            .timeline::before {
+
+                left: 15px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+
+                width: 100%;
+
+                left: 0;
+
+                text-align: left;
+
+                padding-left: 50px;
+            }
+
+            .timeline-item:nth-child(odd) {
+
+                text-align: left;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-dot,
+            .timeline-item:nth-child(even) .timeline-dot {
+
+                left: 6px;
+
+                right: auto;
+            }
+
+            .gallery {
+
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .skills-container {
+
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+
+        /* =====================================================
+           RESPONSIVE HP
+        ===================================================== */
+
+        @media (max-width: 550px) {
+
+            nav .logo {
+
+                font-size: 16px;
+            }
+
+            nav ul {
+
+                gap: 6px;
+            }
+
+            nav a {
+
+                font-size: 10px;
+            }
+
+            section {
+
+                padding: 70px 5%;
+            }
+
+            .section-title h2 {
+
+                font-size: 32px;
+            }
+
+            .profile-image {
+
+                width: 220px;
+
+                height: 220px;
+            }
+
+            .hero-photo::before {
+
+                width: 250px;
+
+                height: 250px;
+            }
+
+            .gallery,
+            .skills-container {
+
+                grid-template-columns: 1fr;
+            }
+
+            .photo-card:nth-child(even),
+            .photo-card:nth-child(odd) {
+
+                transform: rotate(0deg);
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         NAVBAR
+    ===================================================== -->
+
+    <nav>
+
+        <div class="logo">
+
+            Seli<span>.</span>
+
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">Tentang</a>
+            </li>
+
+            <li>
+                <a href="#journey">Perjalanan</a>
+            </li>
+
+            <li>
+                <a href="#gallery">Galeri</a>
+            </li>
+
+            <li>
+                <a href="#Explor">Eksplorasi</a>
+            </li>
+
+            <li>
+                <a href="#contact">Kontak</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- =====================================================
+         HOME
+    ===================================================== -->
+
+    <section id="home">
+
+        <div class="hero">
+
+
+            <div class="hero-text">
+
+                <div class="small-title">
+                    Welcome to My Story
+                </div>
+
+                <h1>
+                    Seli Arroma
+                    <span>Azizah</span>
+                </h1>
+
+                <h2>
+                    Mahasiswa Teknik Geomatika
+                </h2>
+
+                <p>
+
+                    Halo! Saya Seli, mahasiswa semester 5
+                    Teknik Geomatika.
+
+                    Website ini merupakan kumpulan cerita,
+                    pengalaman, kegiatan, dan perjalanan
+                    yang telah membentuk diri saya hingga saat ini.
+
+                </p>
+
+
+                <div class="buttons">
+
+                    <a
+                        href="#journey"
+                        class="btn btn-primary"
+                    >
+                        Lihat Perjalanan Saya
+                    </a>
+
+                    <a
+                        href="#gallery"
+                        class="btn btn-secondary"
+                    >
+                        📸 Lihat Galeri
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-photo">
+
+                <img
+                    src="foto-profil.JPEG"
+                    alt="Foto Profil Seli"
+                    class="profile-image"
+                >
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TENTANG SAYA
+    ===================================================== -->
+
+    <section id="about">
+
+
+        <div class="section-title">
+
+            <div class="label">
+                About Me
+            </div>
+
+            <h2>
+                Tentang Saya
+            </h2>
+
+            <p>
+                Sedikit cerita mengenai siapa saya
+                dan apa yang saya sukai.
+            </p>
+
+        </div>
+
+
+        <div class="about-container">
+
+
+            <div class="about-box">
+
+                <h3>
+                    🌱 Tentang Saya
+                </h3>
+
+                <p>
+
+                    Saya merupakan mahasiswa semester 5
+                    Teknik Geomatika yang tertarik mempelajari
+                    teknologi geospasial, pemetaan digital,
+                    penginderaan jauh, dan Sistem Informasi Geografis.
+
+                </p>
+
+                <br>
+
+                <p>
+
+                    Saya juga suka mengikuti lomba dan olimpiade.
+                    Saat SMP saya mengikuti olimpiade matematika,
+                    sedangkan saat SMA saya mengikuti OSN Informatika
+                    hingga tingkat Provinsi serta lomba bahasa Jepang
+                    atau BUNKASAI dan mendapatkan juara 2 dan juara 3.
+
+                </p>
+
+            </div>
+
+
+            <div class="about-box">
+
+                <h3>
+                    📋 Biodata
+                </h3>
+
+
+                <ul class="biodata">
+
+                    <li>
+                        <strong>Nama:</strong>
+                        Seli Arroma Azizah
+                    </li>
+
+                    <li>
+                        <strong>NIM:</strong>
+                        124230081
+                    </li>
+
+                    <li>
+                        <strong>Program Studi:</strong>
+                        Teknik Geomatika
+                    </li>
+
+                    <li>
+                        <strong>Universitas:</strong>
+                        Institut Teknologi Sumatera
+                    </li>
+
+                    <li>
+                        <strong>Domisili:</strong>
+                        Lampung, Indonesia
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PERJALANAN HIDUP
+    ===================================================== -->
+
+    <section id="journey">
+
+
+        <div class="section-title">
+
+            <div class="label">
+                My Story
+            </div>
+
+            <h2>
+                Perjalanan Hidup Saya
+            </h2>
+
+            <p>
+                Beberapa fase yang menjadi bagian
+                dari perjalanan saya.
+            </p>
+
+        </div>
+
+
+        <p class="journey-intro">
+
+            “Setiap perjalanan memiliki cerita,
+            dan setiap cerita membawa saya menjadi
+            diri saya yang sekarang.”
+
+        </p>
+
+
+        <div class="timeline">
+
+
+            <!-- SMP -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-year">
+                        MASA SMP
+                    </div>
+
+                    <h3>
+                        🏫 Awal Mencoba Banyak Hal
+                    </h3>
+
+                    <p>
+
+                        Pada masa SMP saya mengenal salah satu guru matematika yang menyenangkan ketika mengajar.
+			beliau selalu mengapresiasi setiap siswanya, karena beliau saya mulai tertarik mengikuti
+			kegiatan akademik dan mencoba mengikuti olimpiade matematika.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- SMA -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-year">
+                        MASA SMA
+                    </div>
+
+                    <h3>
+                        💻 OSN & BUNKASAI
+                    </h3>
+
+                    <p>
+
+                        Saya masuk SMA Boarding School (Asrama) selama 3 Tahun. Saat SMA saya awalnya tetap tertarik dengan olimpiade matematika,
+			namun saat itu saya merasa minder karna peluang saya untuk ikut sebagai perwakilan
+			sekolah sangat kecil karena saya merasa ada salah satu teman saya yang jauh lebih pintar dari saya.
+		    <br>
+			Akhirnya, saya mencoba untuk mengikuti suatu hal yang baru dengan mengikuti OSN Informatika
+			dan saya bisa walau hanya tingkat Provinsi. Saya juga beberapa kali mengikuti
+                        lomba bahasa Jepang (BUNKASAI) dan
+                        mendapatkan juara 2 dan juara 3 tingkat Nasional.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- KULIAH -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-year">
+                        MASA PERKULIAHAN
+                    </div>
+
+                    <h3>
+                        🎓 Memulai Perjalanan di ITERA
+                    </h3>
+
+                    <p>
+
+                        Saya melanjutkan pendidikan di Institut Teknologi Sumatera pada Program Studi Teknik Geomatika.
+			Tempat yang awalnya tidak pernah ada di pikiran saya. Namun, Sejauh ini tempat inilah yang mengubah kehidupan saya.
+			Disini saya mulai mengikuti banyak ke panitiaan dan berbagai organisasi,
+			Diantaranya Saya mengikuti Unit Kegiatan Mahasiswa yaitu IKM (Ikatan Keluarga Minangkabau) dan
+			Saya juga mengikuti ORMAWA yiatu Himpunan Mahasiswa Geomatika (HMG)
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- GEOMATIKA -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-year">
+                        TEKNIK GEOMATIKA
+                    </div>
+
+                    <h3>
+                        🗺️ Mengenal Dunia Geospasial
+                    </h3>
+
+                    <p>
+
+                        Saya Mulai banyak mempelajari pemetaan, GIS,
+                        penginderaan jauh, survei,
+                        analisis data spasial, dan berbagai
+                        teknologi geospasial.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- SAAT INI -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-year">
+                        SAAT INI
+                    </div>
+
+                    <h3>
+                        ✨ Terus Belajar & Berkembang
+                    </h3>
+
+                    <p>
+
+                        Saat ini saya terus belajar,
+                        mencoba pengalaman baru,
+                        dan mengembangkan kemampuan
+                        untuk mempersiapkan masa depan.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- GALERI FOTO -->
+
+    <section id="gallery">
+
+
+        <div class="section-title">
+
+            <div class="label">
+                Photo Memories
+            </div>
+
+            <h2>
+                Kumpulan Perjalanan Saya
+            </h2>
+
+            <p>
+                Beberapa momen yang menggambarkan
+                perjalanan hidup saya.
+            </p>
+
+        </div>
+
+
+        <div class="gallery">
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-smp-1.JPEG" alt="Masa SMP 1">
+
+                    <img src="foto-smp-2.JPEG" alt="Masa SMP 2">
+                </div>
+
+
+                <h3>
+                    🏫 Masa SMP
+                </h3>
+
+                <p>
+                    Masa awal belajar, berteman,
+                    dan mencoba hal baru.
+                </p>
+
+            </div>
+
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-sma-1.JPEG" alt="Masa SMA 1">
+
+                    <img src="foto-sma-2.JPEG" alt="Masa SMA 2">
+
+                    <img src="foto-sma-3.JPEG" alt="Masa SMA 3">
+
+                    <img src="foto-sma-4.JPEG" alt="Masa SMA 4">
+
+                    <img src="foto-sma-5.JPEG" alt="Masa SMA 5">
+
+                    <img src="foto-sma-6.JPEG" alt="Masa SMA 6">
+
+                    <img src="foto-sma-7.JPEG" alt="Masa SMA 7">
+
+                    <img src="foto-sma-8.JPEG" alt="Masa SMA 8">
+
+                    <img src="foto-sma-9.JPEG" alt="Masa SMA 9">
+
+                    <img src="foto-sma-10.JPEG" alt="Masa SMA 10">
+
+                    <img src="foto-sma-11.JPEG" alt="Masa SMA 11">
+
+                    <img src="foto-sma-12.JPEG" alt="Masa SMA 12">
+
+                    <img src="foto-sma-13.JPEG" alt="Masa SMA 13">
+
+                    <img src="foto-sma-14.JPEG" alt="Masa SMA 14">
+
+                    <img src="foto-sma-15.JPEG" alt="Masa SMA 15">
+
+                </div>
+
+
+                <h3>
+                    🎒 Masa SMA
+                </h3>
+
+                <p>
+                    Banyak pengalaman dan cerita
+                    yang tidak terlupakan selama 3 tahun di asrama.
+                </p>
+
+            </div>
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-olimpiade-1.JPEG" alt="Olimpiade 1">
+
+                    <img src="foto-olimpiade-2.JPEG" alt="Olimpiade 2">
+
+                    <img src="foto-olimpiade-3.JPEG" alt="Olimpiade 3">
+
+                    <img src="foto-olimpiade-4.JPEG" alt="Olimpiade 4">
+                </div>
+
+
+                <h3>
+                    🏆 Olimpiade
+                </h3>
+
+                <p>
+                    Pengalaman mengikuti kompetisi
+                    dan belajar dari proses.
+                </p>
+
+            </div>
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-bunkasai-10.JPEG" alt="BUNKASAI 1">
+
+                    <img src="foto-bunkasai-2.JPEG" alt="BUNKASAI 2">
+
+                    <img src="foto-bunkasai-3.JPEG" alt="BUNKASAI 3">
+
+                    <img src="foto-bunkasai-4.JPEG" alt="BUNKASAI 4">
+
+                    <img src="foto-bunkasai-5.JPEG" alt="BUNKASAI 5">
+
+                    <img src="foto-bunkasai-6.JPEG" alt="BUNKASAI 6">
+
+                    <img src="foto-bunkasai-7.JPEG" alt="BUNKASAI 7">
+
+		    <img src="foto-bunkasai-8.JPEG" alt="BUNKASAI 8">
+
+                    <img src="foto-bunkasai-9.JPEG" alt="BUNKASAI 9">
+
+		    <img src="foto-bunkasai-1.JPEG" alt="BUNKASAI 10">
+                </div>
+
+
+                <h3>
+                    セリ BUNKASAI
+                </h3>
+
+                <p>
+                    Salah satu pengalaman berharga
+                    dalam kegiatan lomba.
+                </p>
+
+            </div>
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-kuliah-1.JPEG" alt="Kuliah 1">
+
+                    <img src="foto-kuliah-2.JPEG" alt="Kuliah 2">
+
+                    <img src="foto-kuliah-3.JPEG" alt="Kuliah 3">
+
+                    <img src="foto-kuliah-4.JPEG" alt="Kuliah 4">
+
+                    <img src="foto-kuliah-5.JPEG" alt="Kuliah 5">
+
+                    <img src="foto-kuliah-6.JPEG" alt="Kuliah 6">
+
+                    <img src="foto-kuliah-7.JPEG" alt="Kuliah 7">
+
+                    <img src="foto-kuliah-8.JPEG" alt="Kuliah 8">
+
+                    <img src="foto-kuliah-9.JPEG" alt="Kuliah 9">
+
+                    <img src="foto-kuliah-10.JPEG" alt="Kuliah 10">
+
+                    <img src="foto-kuliah-11.JPEG" alt="Kuliah 11">
+
+                    <img src="foto-kuliah-12.JPEG" alt="Kuliah 12">
+
+                    <img src="foto-kuliah-13.JPEG" alt="Kuliah 13">
+
+                    <img src="foto-kuliah-14.JPEG" alt="Kuliah 14">
+
+                    <img src="foto-kuliah-15.JPEG" alt="Kuliah 15">
+
+                </div>
+
+
+                <h3>
+                    🎓 Dunia Perkuliahan
+                </h3>
+
+                <p>
+                    Memulai perjalanan baru
+                    sebagai mahasiswa.
+                </p>
+
+            </div>
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-geomatika-1.JPEG" alt="Teknik Geomatika 1">
+
+		    <img src="foto-geomatika-2.JPEG" alt="Teknik Geomatika 2">
+
+		    <img src="foto-geomatika-3.JPEG" alt="Teknik Geomatika 3">
+
+		    <img src="foto-geomatika-4.JPEG" alt="Teknik Geomatika 4">
+
+		    <img src="foto-geomatika-5.JPEG" alt="Teknik Geomatika 5">
+
+		    <img src="foto-geomatika-6.JPEG" alt="Teknik Geomatika 6">
+
+
+                </div>
+
+
+                <h3>
+                    🗺️ Teknik Geomatika
+                </h3>
+
+                <p>
+                    Belajar mengenal dunia pemetaan
+                    dan geospasial.
+                </p>
+
+            </div>
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-survei-1.JPEG" alt="Survei Lapangan 1">
+
+                    <img src="foto-survei-2.JPEG" alt="Survei Lapangan 2">
+
+                    <img src="foto-survei-3.JPEG" alt="Survei Lapangan 3">
+
+                    <img src="foto-survei-4.JPEG" alt="Survei Lapangan 4">
+
+                    <img src="foto-survei-5.JPEG" alt="Survei Lapangan 5">
+
+		    <img src="foto-survei-6.JPEG" alt="Survei Lapangan 6">
+
+		    <img src="foto-survei-7.JPEG" alt="Survei Lapangan 7">
+
+		    <img src="foto-survei-8.JPEG" alt="Survei Lapangan 8">
+
+
+                </div>
+
+
+                <h3>
+                    Organisasi
+                </h3>
+
+                <p>
+                    Membangun Relasi.
+                </p>
+
+            </div>
+
+
+            <div class="photo-card">
+
+                <div class="slideshow">
+
+                    <img src="foto-kegiatan-1.JPEG" alt="Momen Sekarang 1">
+
+		    <img src="foto-kegiatan-2.JPEG" alt="Momen Sekarang 2">
+
+		    <img src="foto-kegiatan-3.JPEG" alt="Momen Sekarang 3">
+
+		    <img src="foto-kegiatan-4.JPEG" alt="Momen Sekarang 4">
+
+		    <img src="foto-kegiatan-5.JPEG" alt="Momen Sekarang 5">
+
+
+                </div>
+
+
+                <h3>
+                    ✨ Momen Sekarang
+                </h3>
+
+                <p>
+                    Terus belajar, mencoba,membangun relasi
+                    dan menciptakan cerita baru.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    
+    <section id="skills">
+
+
+        <div class="section-title">
+
+            <div class="label">
+                What I Learn
+            </div>
+
+            <h2>
+                Eksplorasi Geomatika
+            </h2>
+
+            <p>
+                Beberapa bidang yang sedang saya pelajari.
+            </p>
+
+        </div>
+
+
+        <div class="skills-container">
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    🗺️
+                </div>
+
+                <h3>
+                    Pemetaan
+                </h3>
+
+                <p>
+                    Pengolahan dan penyajian data
+                    spasial untuk kebutuhan pemetaan.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    🌍
+                </div>
+
+                <h3>
+                    GIS
+                </h3>
+
+                <p>
+                    Analisis data spasial menggunakan
+                    Sistem Informasi Geografis.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    🛰️
+                </div>
+
+                <h3>
+                    Penginderaan Jauh
+                </h3>
+
+                <p>
+                    Pengolahan citra satelit untuk
+                    memperoleh informasi permukaan bumi.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    📐
+                </div>
+
+                <h3>
+                    Survei
+                </h3>
+
+                <p>
+                    Pengukuran dan pengolahan data
+                    hasil survei terestris.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    💻
+                </div>
+
+                <h3>
+                    Web GIS
+                </h3>
+
+                <p>
+                    Pengenalan teknologi web untuk
+                    menampilkan informasi geospasial.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="icon">
+                    📊
+                </div>
+
+                <h3>
+                    Analisis Data
+                </h3>
+
+                <p>
+                    Pengolahan dan analisis data
+                    untuk menghasilkan informasi.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <section id="contact">
+
+
+        <div class="section-title">
+
+            <div class="label">
+                Let's Connect
+            </div>
+
+            <h2>
+                Hubungi Saya
+            </h2>
+
+            <p>
+                Jangan ragu untuk menghubungi saya.
+            </p>
+
+        </div>
+
+
+        <div class="contact-container">
+
+
+            <div class="contact-item">
+
+                📧 Email:
+
+                <a href="mailto:seli.124230081@student.itera.ac.id">
+
+                    seli.124230081@student.itera.ac.id
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                📱 Instagram:
+
+                <a
+                    href="https://instagram.com/"
+                    target="_blank"
+                >
+
+                    @seliarromaa_
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                📍 Lokasi:
+
+                Lampung, Indonesia
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Seli Arroma Azizah
+        </p>
+
+    </footer>
+
+
+
+    <script>
+
+        document
+            .querySelectorAll(".slideshow")
+            .forEach(function(slideshow) {
+
+
+                /* Ambil semua foto di dalam slideshow */
+
+                const images =
+                    slideshow.querySelectorAll("img");
+
+
+                /* Mulai dari foto pertama */
+
+                let current = 0;
+
+
+                /* Jika tidak ada foto */
+
+                if (images.length === 0) {
+
+                    return;
+
+                }
+
+
+                /* Tampilkan foto pertama */
+
+                images[0].classList.add("active");
+
+
+                /* Jika hanya ada satu foto,
+                   tidak perlu bergerak */
+
+                if (images.length === 1) {
+
+                    return;
+
+                }
+
+
+                /* Ganti foto setiap 3 detik */
+
+                setInterval(function() {
+
+
+                    /* Hilangkan foto sekarang */
+
+                    images[current]
+                        .classList
+                        .remove("active");
+
+
+                    /* Pindah ke foto berikutnya */
+
+                    current++;
+
+
+                    /* Jika sudah mencapai foto terakhir,
+                       kembali ke foto pertama */
+
+                    if (current >= images.length) {
+
+                        current = 0;
+
+                    }
+
+
+                    /* Tampilkan foto berikutnya */
+
+                    images[current]
+                        .classList
+                        .add("active");
+
+
+                }, 3000);
+
+
+            });
+
+    </script>
+
+
+</body>
+
+</html>
