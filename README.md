@@ -219,8 +219,8 @@
 
             position: absolute;
 
-            width: 310px;
-            height: 310px;
+            width: 330px;
+            height: 330px;
 
             border-radius: 50%;
 
@@ -892,9 +892,9 @@
 
             .hero-photo::before {
 
-                width: 250px;
+                width: 240px;
 
-                height: 250px;
+                height: 240px;
             }
 
             .gallery,
