@@ -1460,7 +1460,7 @@
 
                 <div class="slideshow">
 
-                    <img src="foto-bunkasai-10.jpeg" alt="BUNKASAI 1">
+                    <img src="foto-bunkasai-10.jpeg" alt="BUNKASAI 10">
 
                     <img src="foto-bunkasai-2.jpeg" alt="BUNKASAI 2">
 
@@ -1478,7 +1478,7 @@
 
                     <img src="foto-bunkasai-9.jpeg" alt="BUNKASAI 9">
 
-		  			<img src="foto-bunkasai-1.jpeg" alt="BUNKASAI 10">
+		  			<img src="foto-bunkasai-1.jpeg" alt="BUNKASAI 1">
                 </div>
 
 
@@ -1508,7 +1508,7 @@
 
                     <img src="foto-kuliah-5.jpeg" alt="Kuliah 5">
 
-                    <img src="foto-kuliah-jpeg" alt="Kuliah 6">
+                    <img src="foto-kuliah-6.jpeg" alt="Kuliah 6">
 
                     <img src="foto-kuliah-7.jpeg" alt="Kuliah 7">
 
