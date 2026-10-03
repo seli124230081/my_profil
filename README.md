@@ -1023,7 +1023,7 @@ Selamat datang di website saya
             <div class="hero-photo">
 
                 <img
-                    src="foto-profil.JPEG"
+                    src="foto-profil.jpeg"
                     alt="Foto Profil Seli"
                     class="profile-image"
                 >
