@@ -219,8 +219,8 @@
 
             position: absolute;
 
-            width: 330px;
-            height: 330px;
+            width: 310px;
+            height: 310px;
 
             border-radius: 50%;
 
