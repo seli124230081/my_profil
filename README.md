@@ -1434,13 +1434,13 @@
 
                 <div class="slideshow">
 
-                    <img src="foto-olimpiade-1.JPEG" alt="Olimpiade 1">
+                    <img src="foto-olimpiade-1.jpeg" alt="Olimpiade 1">
 
-                    <img src="foto-olimpiade-2.JPEG" alt="Olimpiade 2">
+                    <img src="foto-olimpiade-2.jpeg" alt="Olimpiade 2">
 
-                    <img src="foto-olimpiade-3.JPEG" alt="Olimpiade 3">
+                    <img src="foto-olimpiade-3.jpeg" alt="Olimpiade 3">
 
-                    <img src="foto-olimpiade-4.JPEG" alt="Olimpiade 4">
+                    <img src="foto-olimpiade-4.jpeg" alt="Olimpiade 4">
                 </div>
 
 
@@ -1460,25 +1460,25 @@
 
                 <div class="slideshow">
 
-                    <img src="foto-bunkasai-10.JPEG" alt="BUNKASAI 1">
+                    <img src="foto-bunkasai-10.jpeg" alt="BUNKASAI 1">
 
-                    <img src="foto-bunkasai-2.JPEG" alt="BUNKASAI 2">
+                    <img src="foto-bunkasai-2.jpeg" alt="BUNKASAI 2">
 
-                    <img src="foto-bunkasai-3.JPEG" alt="BUNKASAI 3">
+                    <img src="foto-bunkasai-3.jpeg" alt="BUNKASAI 3">
 
-                    <img src="foto-bunkasai-4.JPEG" alt="BUNKASAI 4">
+                    <img src="foto-bunkasai-4.jpeg" alt="BUNKASAI 4">
 
-                    <img src="foto-bunkasai-5.JPEG" alt="BUNKASAI 5">
+                    <img src="foto-bunkasai-5.jpeg" alt="BUNKASAI 5">
 
-                    <img src="foto-bunkasai-6.JPEG" alt="BUNKASAI 6">
+                    <img src="foto-bunkasai-6.jpeg" alt="BUNKASAI 6">
 
-                    <img src="foto-bunkasai-7.JPEG" alt="BUNKASAI 7">
+                    <img src="foto-bunkasai-7.jpeg" alt="BUNKASAI 7">
 
-		    <img src="foto-bunkasai-8.JPEG" alt="BUNKASAI 8">
+		   			<img src="foto-bunkasai-8.jpeg" alt="BUNKASAI 8">
 
-                    <img src="foto-bunkasai-9.JPEG" alt="BUNKASAI 9">
+                    <img src="foto-bunkasai-9.jpeg" alt="BUNKASAI 9">
 
-		    <img src="foto-bunkasai-1.JPEG" alt="BUNKASAI 10">
+		  			<img src="foto-bunkasai-1.jpeg" alt="BUNKASAI 10">
                 </div>
 
 
@@ -1498,27 +1498,27 @@
 
                 <div class="slideshow">
 
-                    <img src="foto-kuliah-1.JPEG" alt="Kuliah 1">
+                    <img src="foto-kuliah-1.jpeg" alt="Kuliah 1">
 
-                    <img src="foto-kuliah-2.JPEG" alt="Kuliah 2">
+                    <img src="foto-kuliah-2.jpeg" alt="Kuliah 2">
 
-                    <img src="foto-kuliah-3.JPEG" alt="Kuliah 3">
+                    <img src="foto-kuliah-3.jpeg" alt="Kuliah 3">
 
-                    <img src="foto-kuliah-4.JPEG" alt="Kuliah 4">
+                    <img src="foto-kuliah-4.jpeg" alt="Kuliah 4">
 
-                    <img src="foto-kuliah-5.JPEG" alt="Kuliah 5">
+                    <img src="foto-kuliah-5.jpeg" alt="Kuliah 5">
 
-                    <img src="foto-kuliah-6.JPEG" alt="Kuliah 6">
+                    <img src="foto-kuliah-jpeg" alt="Kuliah 6">
 
-                    <img src="foto-kuliah-7.JPEG" alt="Kuliah 7">
+                    <img src="foto-kuliah-7.jpeg" alt="Kuliah 7">
 
-                    <img src="foto-kuliah-8.JPEG" alt="Kuliah 8">
+                    <img src="foto-kuliah-8.jpeg" alt="Kuliah 8">
 
-                    <img src="foto-kuliah-9.JPEG" alt="Kuliah 9">
+                    <img src="foto-kuliah-9.jpeg" alt="Kuliah 9">
 
-                    <img src="foto-kuliah-10.JPEG" alt="Kuliah 10">
+                    <img src="foto-kuliah-10.jpeg" alt="Kuliah 10">
 
-                    <img src="foto-kuliah-11.JPEG" alt="Kuliah 11">
+                    <img src="foto-kuliah-11.jpeg" alt="Kuliah 11">
 
                     <img src="foto-kuliah-12.JPEG" alt="Kuliah 12">
 
@@ -1526,7 +1526,7 @@
 
                     <img src="foto-kuliah-14.JPEG" alt="Kuliah 14">
 
-                    <img src="foto-kuliah-15.JPEG" alt="Kuliah 15">
+                    <img src="foto-kuliah-15.jpeg" alt="Kuliah 15">
 
                 </div>
 
@@ -1547,17 +1547,17 @@
 
                 <div class="slideshow">
 
-                    <img src="foto-geomatika-1.JPEG" alt="Teknik Geomatika 1">
+                    <img src="foto-geomatika-1.jpeg" alt="Teknik Geomatika 1">
 
-		    <img src="foto-geomatika-2.JPEG" alt="Teknik Geomatika 2">
+		    		<img src="foto-geomatika-2.jpeg" alt="Teknik Geomatika 2">
 
-		    <img src="foto-geomatika-3.JPEG" alt="Teknik Geomatika 3">
+		    		<img src="foto-geomatika-3.jpeg" alt="Teknik Geomatika 3">
 
-		    <img src="foto-geomatika-4.JPEG" alt="Teknik Geomatika 4">
+		    		<img src="foto-geomatika-4.jpeg" alt="Teknik Geomatika 4">
 
-		    <img src="foto-geomatika-5.JPEG" alt="Teknik Geomatika 5">
+		   			<img src="foto-geomatika-5.jpeg" alt="Teknik Geomatika 5">
 
-		    <img src="foto-geomatika-6.JPEG" alt="Teknik Geomatika 6">
+					<img src="foto-geomatika-6.jpeg" alt="Teknik Geomatika 6">
 
 
                 </div>
@@ -1579,21 +1579,21 @@
 
                 <div class="slideshow">
 
-                    <img src="foto-survei-1.JPEG" alt="Survei Lapangan 1">
+                    <img src="foto-survei-1.jpeg" alt="Survei Lapangan 1">
 
-                    <img src="foto-survei-2.JPEG" alt="Survei Lapangan 2">
+                    <img src="foto-survei-2.jpeg" alt="Survei Lapangan 2">
 
-                    <img src="foto-survei-3.JPEG" alt="Survei Lapangan 3">
+                    <img src="foto-survei-3.jpeg" alt="Survei Lapangan 3">
 
-                    <img src="foto-survei-4.JPEG" alt="Survei Lapangan 4">
+                    <img src="foto-survei-4.jpeg" alt="Survei Lapangan 4">
 
-                    <img src="foto-survei-5.JPEG" alt="Survei Lapangan 5">
+                    <img src="foto-survei-5.jpeg" alt="Survei Lapangan 5">
 
-		    <img src="foto-survei-6.JPEG" alt="Survei Lapangan 6">
+		    		<img src="foto-survei-6.jpeg" alt="Survei Lapangan 6">
 
-		    <img src="foto-survei-7.JPEG" alt="Survei Lapangan 7">
+		    		<img src="foto-survei-7.jpeg" alt="Survei Lapangan 7">
 
-		    <img src="foto-survei-8.JPEG" alt="Survei Lapangan 8">
+		    		<img src="foto-survei-8.jpeg" alt="Survei Lapangan 8">
 
 
                 </div>
@@ -1614,15 +1614,15 @@
 
                 <div class="slideshow">
 
-                    <img src="foto-kegiatan-1.JPEG" alt="Momen Sekarang 1">
+                    <img src="foto-kegiatan-1.jpeg" alt="Momen Sekarang 1">
 
-		    <img src="foto-kegiatan-2.JPEG" alt="Momen Sekarang 2">
+		    		<img src="foto-kegiatan-2.jpeg" alt="Momen Sekarang 2">
 
-		    <img src="foto-kegiatan-3.JPEG" alt="Momen Sekarang 3">
+		   			<img src="foto-kegiatan-3.jpeg" alt="Momen Sekarang 3">
 
-		    <img src="foto-kegiatan-4.JPEG" alt="Momen Sekarang 4">
+		    		<img src="foto-kegiatan-4.jpeg" alt="Momen Sekarang 4">
 
-		    <img src="foto-kegiatan-5.JPEG" alt="Momen Sekarang 5">
+					<img src="foto-kegiatan-5.jpeg" alt="Momen Sekarang 5">
 
 
                 </div>
